@@ -1,6 +1,6 @@
 //
 //  SecondViewController.swift
-//  ToDoList3
+//  SmallToDoList3
 //
 //  Created by Stefano Negro on 11/02/17.
 //  Copyright © 2017 Stefano Negro. All rights reserved.
