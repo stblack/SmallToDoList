@@ -13,6 +13,7 @@
 		7775D1D31E4FBD5F003E3498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7775D1D11E4FBD5F003E3498 /* Main.storyboard */; };
 		7775D1D51E4FBD5F003E3498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7775D1D41E4FBD5F003E3498 /* Assets.xcassets */; };
 		7775D1D81E4FBD5F003E3498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7775D1D61E4FBD5F003E3498 /* LaunchScreen.storyboard */; };
+		77A2AF411E52321B0070AC16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A2AF401E52321B0070AC16 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7775D1D41E4FBD5F003E3498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7775D1D71E4FBD5F003E3498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7775D1D91E4FBD5F003E3498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A2AF401E52321B0070AC16 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		7775D1BF1E4FBD5F003E3498 = {
 			isa = PBXGroup;
 			children = (
+				77A2AF401E52321B0070AC16 /* Default-568h@2x.png */,
 				7775D1CA1E4FBD5F003E3498 /* SmallToDoList */,
 				7775D1C91E4FBD5F003E3498 /* Products */,
 			);
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7775D1D81E4FBD5F003E3498 /* LaunchScreen.storyboard in Resources */,
+				77A2AF411E52321B0070AC16 /* Default-568h@2x.png in Resources */,
 				7775D1D51E4FBD5F003E3498 /* Assets.xcassets in Resources */,
 				7775D1D31E4FBD5F003E3498 /* Main.storyboard in Resources */,
 			);
@@ -262,7 +266,6 @@
 		7775D1DD1E4FBD5F003E3498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToDoList3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefanonegro.SmallToDoList3;
@@ -274,7 +277,6 @@
 		7775D1DE1E4FBD5F003E3498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToDoList3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefanonegro.SmallToDoList3;
